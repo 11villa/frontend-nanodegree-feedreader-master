@@ -1,0 +1,17 @@
+# Feed reader testing
+
+## Instructions
+Follow the Instructions for testing the feed reader:
+* Open **index.html** in your favourite browser. 
+* After a few seconds, jasmine shows the test results. Tested points are: 
+    RSS Feed
+    - [x] names are defined for all Feeds
+    - [x] URLs are defined for all Feeds
+    - [x] are defined
+    The menu
+    - [x] is hidden by default
+    - [x] toogle works
+  Initial Entries
+    - [x] At least one entry within the feed container
+    - [x] New Feed Selection
+    - [x] content changes
