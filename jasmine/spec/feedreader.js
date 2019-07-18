@@ -57,6 +57,7 @@ $(function() {
         expect($('body').hasClass('menu-hidden')).toBe(false); 
         //click again to init
         $('.menu-icon-link').click();
+        expect($('body').hasClass('menu-hidden')).toBe(true);
 
         });
 
@@ -78,8 +79,7 @@ $(function() {
             
             it('At least one entry within the feed container',function(){
 
-                expect($('.feed')[0].childNodes[1]).toBeDefined;
-                expect($('.feed')[0].childNodes[1].innerText.length).not.toBe(0);
+                expect($('.feed .entry').length).not.toBe(0);
 
             });
 
